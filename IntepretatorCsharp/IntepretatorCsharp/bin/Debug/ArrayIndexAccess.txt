@@ -1,0 +1,8 @@
+integer i;
+mass arr[10];
+i = 0;
+while(i < 10) do {
+	arr[i] = i;
+	out(arr[i]);
+	i = i + 1;
+};

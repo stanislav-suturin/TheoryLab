@@ -1,0 +1,23 @@
+integer i,j,temp, n;
+mass a[200];
+in(n);
+j = 0;
+while(j<n) do {
+	a[j]=j; 
+	j=j+1;};
+j=1
+while (j<n) do  
+{ i=0;
+  while (i<n-j) do 
+  { if (a[i]<a[i+1]) then 
+	  {
+	temp=a[i];
+	a[i] = a[i+1];
+	a[i+1] = temp;
+};
+  i=i+1;};
+  j=j+1;
+};
+i=0;
+ while(i<n) do
+{out(a[i]); i=i+1;};
